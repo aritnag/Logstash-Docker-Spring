@@ -1,0 +1,9 @@
+Git Clone the application
+git clone https://github.com/aritnag/spring-boot-mongo-ES.git
+
+Logstash Run Command:
+bin/logstash -f logstash.conf
+
+Docker run Command :
+docker run -p 8000:8000 -v /home/ubuntu/log:/usr/src/app/target/log --name=spring-boot-mongo-es -d aritranag20/spring-boot-mongo-es
+
